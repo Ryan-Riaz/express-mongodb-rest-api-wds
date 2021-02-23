@@ -1,5 +1,3 @@
-const getSubscriber = require("../middlewares/getSubscriberID");
-
 const Subscriber = require("../models/subscriber");
 
 // get all subscribers

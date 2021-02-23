@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// create schema for our subscriber
 const subscriberSchema = new mongoose.Schema({
     name: {
         type: String,

@@ -2,6 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
+// import subscriber controllers
 const {
     getAllSubscribers,
     createSubscriber,
@@ -10,6 +11,7 @@ const {
     deleteSubscriber,
 } = require("../controllers/subscriberController");
 
+// import subscriber middleware
 const getSubscriberByID = require("../middlewares/getSubscriberID");
 
 // get all subscribers
